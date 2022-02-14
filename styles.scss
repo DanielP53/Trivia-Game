@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner {
+    img {
+        max-width: 100%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question {
+    max-width: 1000px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.question-image {
+    max-height: 200px;
+}
+
+.question-content {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer {
+    margin: 8px;
+    width: 50%;
+}
